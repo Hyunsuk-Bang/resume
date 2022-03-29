@@ -1,0 +1,144 @@
+header{
+    background-color: white;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 50px;
+    width: 1300px;
+    height: 10px;
+    margin:0 auto;
+}
+footer{
+    font-family:'Source Sans Pro', sans-serif; 
+    margin:0 auto;
+    width: 1440px;
+    height: 100px;
+    background-color: white
+    
+}
+#main{
+    margin: 0 auto;
+    background-color: white;
+    position: relative;
+    width: 1440px;
+    height: 900px;
+}
+
+#side{
+    float: left;
+    width: 200px;
+    height: 900px;
+    font-size: 30px;
+}
+
+#main_text{
+    font-family: 'Fredoka', sans-serif;
+    position: absolute;
+    top: 22%;
+    left: 40%;
+    font-size: 60px;
+    font-weight: 700;
+    left: 30%;
+}
+
+#side_ul{
+    list-style: None;
+    padding-left: 65px;
+}
+
+li{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    width: 135px;
+    height: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+nav{
+    width:200px;
+    position: absolute;
+    top: 190px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+#iit_image{
+    position: absolute;
+    top: 37%;
+    left: 28.6%;
+}
+
+#project_image{
+    position: absolute;
+    top: 22%;
+    left: 60%;
+}
+
+#skills_image{
+    position: absolute;
+    top: 30%;
+    left: 60%;
+}
+
+#experience_image{
+    position: absolute;
+    top: 25%;
+    left: 73.6%;
+}
+
+#main_image{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    margin-top: 230px;
+    left: 66%;
+}
+
+
+#main_sub{
+    font-family: 'Fredoka', sans-serif;
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    font-size: 15px;
+    left: 30%;
+}
+
+#education{
+    font-family: 'Fredoka', sans-serif;
+    position: absolute;
+    top: 31%;
+    left:30%;
+    font-size: 15px;
+    font-weight: 300;
+} 
+
+#skills_text{
+    font-family: 'Fredoka', sans-serif;
+    position: absolute;
+    top: 17%;
+    left: 40%;
+    font-size: 15px;
+    left: 30%;
+}
+
+#experience{
+    font-family: 'Fredoka', sans-serif;
+    position: absolute;
+    top: 17%;
+    left: 40%;
+    font-size: 15px;
+    left: 30%;
+
+}
+
+#project{
+    font-family: 'Fredoka', sans-serif;
+    position: absolute;
+    top: 18%;
+    left: 40%;
+    font-size: 15px;
+    left: 30%;
+}
