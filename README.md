@@ -4,7 +4,7 @@ This is a simple resume website for COM 421
 
 ## Main Page
 This is the main page of my website. It depicts my general personal information such as my name, phone number, emial, and LinkedIn. One could download a pdf version of my resume on this page. 
-I put navigation par with link to the other pages on the sides.
+I put navigation par with link to the other pages on the sides. Current page is indicated with underline on the sides.
 I kept all my pages below as same designs.
 
 ![Screen Shot 2022-03-31 at 10 32 58](https://user-images.githubusercontent.com/84240134/161093714-b442f97f-40df-4533-8005-2aa590562474.png)
