@@ -40,7 +40,7 @@ This page shows my experiences which are relevent or irrelevent.
 
 
 ## Project
-This page show lists of my projects and their descriptions.
+This page show lists of my projects and their descriptions with Github link if it is applicable.
 ![Screen Shot 2022-03-31 at 10 33 48](https://user-images.githubusercontent.com/84240134/161097355-7cd22fa3-26e5-421c-951d-0cf2cccf30c0.png)
 
 ## other
