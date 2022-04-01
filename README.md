@@ -11,12 +11,14 @@ All the images are copyright free.
 This is the main page of my website. It depicts my general personal information such as my name, phone number, email, and LinkedIn.
 User could download a pdf version of my resume on this page. (Google Drive Link)
 
-I put navigation bar with link to the other pages on the sides. Current page is indicated as an underlined element on the side bar.<br>
-User could move to other pages by clicking element on the side bar.
+I put navigation bar with link to the other pages on the sides.<br>
+Current page is indicated as an underlined element on the side bar.<br>
+User could move to other pages by clicking element on the side bar.<br>
 
 Simple black and white designs are maintained on all other pages. 
-I believe that black and white design with adequate amount of spacing and proper font could maximize the legibility.
-Each pages have main title with h1 header followed by sub titles with h2 header.
+I believe that black and white design with adequate amount of spacing and proper font could maximize the legibility.<br>
+
+Each pages has main title with h1 header followed by sub titles with h2 header.
 
 ![Screen Shot 2022-03-31 at 10 32 58](https://user-images.githubusercontent.com/84240134/161093714-b442f97f-40df-4533-8005-2aa590562474.png)
 
