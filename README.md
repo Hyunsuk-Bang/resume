@@ -1,18 +1,25 @@
 # resume
-
-This is a simple resume website for COM 421
+This is Hyunsuk Bang's resume website.
+<br>
+<b>main_Font: Fredoka, sans-serif</b>
+<br>
+<b>side_font: Roboto</b>
+<br>
+All the images are copyright free.
 
 ## Main Page
-This is the main page of my website. It depicts my general personal information such as my name, phone number, emial, and LinkedIn.
-User could download a pdf version of my resume on this page.
+This is the main page of my website. It depicts my general personal information such as my name, phone number, email, and LinkedIn.
+User could download a pdf version of my resume on this page. (Google Drive Link)
 
+I put navigation bar with link to the other pages on the sides. Current page is indicated with underline on the sides.
+I maintained same black and white designs for all of the pages.
+Moreover, I put navigation bar on the left side of the pages so viewers can move to any pages that they want. 
 
-I put navigation par with link to the other pages on the sides. Current page is indicated with underline on the sides.
-I kept all my pages below as same designs.
 
 ![Screen Shot 2022-03-31 at 10 32 58](https://user-images.githubusercontent.com/84240134/161093714-b442f97f-40df-4533-8005-2aa590562474.png)
 
 
+Below are screenshots of other pages.
 
 ## Education
 This page shows my educational backgroud with GPA.
@@ -35,3 +42,6 @@ This page shows my experiences which are relevent or irrelevent.
 ## Project
 This page show lists of my projects and their descriptions.
 ![Screen Shot 2022-03-31 at 10 33 48](https://user-images.githubusercontent.com/84240134/161097355-7cd22fa3-26e5-421c-951d-0cf2cccf30c0.png)
+
+## other
+If I have more time and knowledge about html and css, I would like to implement simple Javascript for page transisions. 
