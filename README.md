@@ -11,8 +11,8 @@ All the images are copyright free.
 This is the main page of my website. It depicts my general personal information such as my name, phone number, email, and LinkedIn.
 User could download a pdf version of my resume on this page. (Google Drive Link)
 
-I put navigation bar with link to the other pages on the sides.<br>
-Current page is indicated as an underlined element on the side bar.<br>
+I put navigation bar with link to the other pages on the sides.
+Current page is indicated as an underlined element on the side bar.
 User could move to other pages by clicking element on the side bar.<br>
 
 Simple black and white designs are maintained on all other pages. 
