@@ -1,4 +1,4 @@
-# resume
+# Hyunsuk Bang's Resume
 This is Hyunsuk Bang's resume website.
 <br>
 <b>main_Font: Fredoka, sans-serif</b>
