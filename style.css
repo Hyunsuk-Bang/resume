@@ -18,15 +18,13 @@ footer{
     margin: 0 auto;
     background-color: white;
     position: relative;
-    width: 1440px;
-    height: 900px;
+    float: left;
+    width: 70%;
 }
 
 #side{
     float: left;
-    width: 200px;
-    height: 900px;
-    font-size: 30px;
+    width: 30%;
 }
 
 #main_text{
@@ -42,6 +40,12 @@ footer{
 #side_ul{
     list-style: None;
     padding-left: 65px;
+}
+
+@media screen and (max-width: 800px) {
+    .side .main {
+        width: 100%   
+    }
 }
 
 li{
@@ -91,7 +95,6 @@ a{
     left: 66%;
 }
 
-
 #main_sub{
     font-family: 'Fredoka', sans-serif;
     position: absolute;
@@ -126,7 +129,6 @@ a{
     left: 40%;
     font-size: 15px;
     left: 30%;
-
 }
 
 #project{
