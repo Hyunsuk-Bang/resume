@@ -70,11 +70,6 @@ a{
     left: 28.6%;
 }
 
-#project_image{
-    position: absolute;
-    top: 22%;
-    left: 60%;
-}
 
 #skills_image{
     position: absolute;
@@ -137,7 +132,7 @@ a{
 #project{
     font-family: 'Fredoka', sans-serif;
     position: absolute;
-    top: 18%;
+    top: 10%;
     left: 40%;
     font-size: 15px;
     left: 30%;
