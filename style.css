@@ -1,7 +1,6 @@
 #main{
     margin: 0 auto;
     background-color: white;
-    position: relative;
     float: left;
     width: 80%;
 }
@@ -13,12 +12,8 @@
 
 #main_text{
     font-family: 'Fredoka', sans-serif;
-    position: absolute;
-    top: 22%;
-    left: 40%;
     font-size: 60px;
     font-weight: 700;
-    left: 30%;
 }
 
 #side_ul{
@@ -39,12 +34,6 @@ li{
     height: 20px;
     padding-top: 30px;
     padding-bottom: 30px;
-}
-
-nav{
-    width:200px;
-    position: absolute;
-    top: 190px;
 }
 
 a{
