@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Resume</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navigation">
+            <ul>
+		<li><a href="./index.html">About</a></li>
+                <li><a href="./education.html">Education</a></li>
+                <li><a href="./experience.html">Experience</a></li>
+                <li><a href="./skills.html">Skills</a></li>
+		<li><a href="./projects.html"><u>Projects</u></a></li>
+            </ul>
+        </nav>
+        <main class="main-content">
+            <section id="about">
+                <h1>Projects</h1>
+	            <p>
+		    <h3>Converting pcap expressions to BPF (Berkeley Packet Filters)</h3>
+		    - Developed a compiler that translates pcap expressions into BPF, allowing for more efficient and accurate filtering of network packets<br>
+		    - Implemented improvements relative to tcpdump's capability to capture transport layer on top of ipv6<br>
+		    - Designed and implemented control flow graph optimization algorithms to improve BPF's execution speed and resource utilization<br>
+		    - Conducted extensive testing and debugging to ensure correctness and robustness<br>
+		    - Contributed to the open source community, enhancing readability of 'Caper expansion' section in tcpdump.org<br>
+		    (<a href = https://gitlab.com/niksu/caper target = "_blank"><u>https://gitlab.com/niksu/caper</u></a>, code is deployed online at <a href = https://www.tcpdump.org/bpfexam/?ver=1.10.4&dlt=EN10MB&snaplen=65535&filter=tcp+or+udp+&cbpf=none target = "_blank"><u>tcpdump.org</u></a>)<br>
+		    </p>
+		    <p>
+		    <h3>Firewall on DPDK(Data Plane Development Kit) for High-bandwidth Network</h3>
+		    - Developed a firewall solution utilizing DPDK to handle high-speed network traffic at 100Gbps bandwidth<br>
+		    - Conducted performance optimization through utilizing RSS load balancing and DPDK libraries <br>
+		    - Administered extensive testing and benchmarking to validate the program's stability, scalability, and performance<br>
+		    </p>
+		    <p>
+		    <h3>HULA (Hop-by-hop Utilization-aware Load balancing Architecture) Load balancer for Data Center</h3>
+		    - Built a scalable, adaptable, and programmable congestion aware load balancer for programmable data plane using P4 language<br>
+		    - Developed an automated tool to generate fat-tree network topologies based on specified requirements and constraints<br>
+		    - Conducted extensive testing and validation to ensure the accuracy and reliability of the load balancer<br>
+		    - Constructed an automated visualizer to capture the path of packets across the network infrastructure<br>
+		    </p>
+		    <p>
+		    <h3>Paddy Disease Classification</h3>
+		    - Engineered a model on a large-scale dataset, achieving an accuracy of 90% using Convolutional Neural Network (CNN) with Tensorflow<br>
+		    - Conducted thorough data analysis and data preprocessing to prepare the data for modeling<br>
+		    - Fine-tuned the hyperparameters to optimize model performance
+		    </p>
+	     </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: "Ferdoka", Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.navigation {
+    width: 10%;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li {
+    margin-bottom: 10px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #333;
+}
+
+.main-content {
+    width: 70%;
+    padding: 20px;
+}
+
+.main-content h2 {
+    margin-top: 0;
+}
+.main-content p {
+    margin-bottom: 50px;
+}
+
+.related-picture {
+    width: 30%;
+    padding: 20px;
+}
+
+.related-picture img {
+    max-width: 100%;
+    display: block;
+}
+
+h2 span { font-size:15px; }
+/* Update flexbox properties to place navigation on the left */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-wrap: wrap;
+    }
+    .navigation {
+        width: 100%;
+    }
+    .main-content {
+        width: 100%;
+    }
+    .related-picture {
+        width: 100%;
+    }
+}
+
