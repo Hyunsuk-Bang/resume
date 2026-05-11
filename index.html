@@ -3,36 +3,349 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hyunsuk Bang's Resume</title>
+    <meta name="description" content="Hyunsuk Bang — Site Reliability Engineer at Tesla. Kubernetes, Cilium, eBPF, and platform engineering.">
+    <meta name="author" content="Hyunsuk Bang">
+    <title>Hyunsuk Bang — Site Reliability Engineer</title>
+
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="Hyunsuk Bang — Site Reliability Engineer">
+    <meta property="og:description" content="Site Reliability Engineer at Tesla. Kubernetes, Cilium, eBPF, and platform engineering.">
+    <meta property="og:image" content="./favicon.svg">
+    <meta property="profile:first_name" content="Hyunsuk">
+    <meta property="profile:last_name" content="Bang">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Hyunsuk Bang — Site Reliability Engineer">
+    <meta name="twitter:description" content="Site Reliability Engineer at Tesla. Kubernetes, Cilium, eBPF, and platform engineering.">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Hyunsuk Bang",
+      "jobTitle": "Site Reliability Engineer",
+      "worksFor": { "@type": "Organization", "name": "Tesla" },
+      "alumniOf": { "@type": "CollegeOrUniversity", "name": "Illinois Institute of Technology" },
+      "email": "mailto:banghsk99@gmail.com",
+      "address": { "@type": "PostalAddress", "addressLocality": "Austin", "addressRegion": "TX" },
+      "sameAs": [
+        "https://www.linkedin.com/in/hyunsuk-bang/",
+        "https://github.com/Hyunsuk-Bang",
+        "https://gitlab.com/hbang3"
+      ]
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <div class="container">
-        <nav class="navigation">
-            <ul>
-		<li><a href="./index.html"><u>About</u></a></li>
-                <li><a href="./education.html">Education</a></li>
-                <li><a href="./experience.html">Experience</a></li>
-                <li><a href="./skills.html">Skills</a></li>
-                <li><a href="./projects.html">Projects</a></li>
-            </ul>
-        </nav>
-        <main class="main-content">
-            <section id="about">
-                <h2>Hyunsuk Bang</h2>
-		    <i>Motivated professional with a keen interest in computer networking, data science, and AI. Well-versed in these areas, with a drive to explore emerging technologies. Skilled in translating theoretical concepts into practical solutions. Seeking opportunities to contribute to innovative projects and apply expertise in driving advancements in computer networking, data science, and AI. Committed to ongoing learning and staying updated on the latest developments in these dynamic fields.</i>
-		    <p>
-			    <h3>Email</h3>
-			    hbang3@hawk.iit.edu
-		    </p>
-		    <p>
-			    <h3>Links</h3>
-			    <a href = "https://www.linkedin.com/in/hyunsuk-bang/"><u>LinkedIn</u></a>  
-			    <a href = "https://github.com/Hyunsuk-Bang"><u>Github</u></a>  
-			    <a href = "https://gitlab.com/hbang3"><u>Gitlab</u></a>  
-		   </p>
-	     </section>
+    <header class="site-header">
+        <div class="wrap header-inner">
+            <a href="#top" class="brand">Hyunsuk Bang</a>
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-nav">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="nav" id="primary-nav">
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#publications">Publications</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#education">Education</a>
+            </nav>
         </div>
-    </div>
+    </header>
+
+    <main id="top">
+        <section class="hero wrap">
+            <p class="eyebrow">Site Reliability Engineer · Austin, TX</p>
+            <h1>Hyunsuk Bang</h1>
+            <p class="lede">
+                I build and operate large-scale Kubernetes platforms at Tesla, with a focus on
+                networking, eBPF, and the reliability of the infrastructure that runs underneath.
+            </p>
+            <div class="contact">
+                <a href="mailto:banghsk99@gmail.com">banghsk99@gmail.com</a>
+                <span class="dot" aria-hidden="true">·</span>
+                <a href="https://www.linkedin.com/in/hyunsuk-bang/" target="_blank" rel="noopener">LinkedIn</a>
+                <span class="dot" aria-hidden="true">·</span>
+                <a href="https://github.com/Hyunsuk-Bang" target="_blank" rel="noopener">GitHub</a>
+                <span class="dot" aria-hidden="true">·</span>
+                <a href="https://gitlab.com/hbang3" target="_blank" rel="noopener">GitLab</a>
+            </div>
+        </section>
+
+        <section id="about" class="section wrap">
+            <h2>About</h2>
+            <p class="prose">
+                I'm a Site Reliability Engineer at Tesla with a strong passion for computer networking
+                and platform engineering. I enjoy translating systems concepts into practical infrastructure —
+                Kubernetes, Cilium, eBPF, and the tooling that keeps clusters healthy at scale.
+            </p>
+        </section>
+
+        <section id="experience" class="section wrap">
+            <h2>Experience</h2>
+
+            <article class="card">
+                <header class="card-head">
+                    <div>
+                        <h3>Site Reliability Engineer</h3>
+                        <p class="meta">Tesla</p>
+                    </div>
+                    <p class="when">2025 — Present</p>
+                </header>
+                <ul>
+                    <li>Automated lifecycle management of Kubernetes clusters running NVIDIA GPUs, including health monitoring and auto-remediation of unhealthy nodes.</li>
+                    <li>Contributed to <a href="https://github.com/cilium/cilium" target="_blank" rel="noopener">Cilium</a> (CNCF) — fixed a race condition in the IPSec key rotation path that caused packet drops during agent rolling restarts. Solution used pinned BPF maps to defer peer advertisement until kernel XFRM states were ready (<a href="https://github.com/cilium/cilium/pull/44701" target="_blank" rel="noopener">PR #44701</a>).</li>
+                    <li>Drove the migration from kube-proxy to Cilium's kube-proxy-replacement across all clusters, auditing the Cilium codebase to validate impact and correctness of service routing.</li>
+                    <li>Led the migration of Kubernetes clusters from Ingress NGINX to Gateway API + Envoy.</li>
+                    <li>Enabled secure arbitrary code execution for AI workloads by architecting a sandboxed runtime on Kata Containers backed by Firecracker microVMs — VM-level isolation inside Kubernetes for running untrusted code.</li>
+                </ul>
+            </article>
+
+            <article class="card">
+                <header class="card-head">
+                    <div>
+                        <h3>Site Reliability Engineer Intern</h3>
+                        <p class="meta">Tesla · Fremont, CA</p>
+                    </div>
+                    <p class="when">May 2024 — Dec 2024</p>
+                </header>
+                <ul>
+                    <li>Migrated computationally intensive Kubernetes clusters from AWS to an on-prem data center, achieving up to 90% cost savings.</li>
+                    <li>Built a tool to query Mimir and Prometheus across 300+ Kubernetes clusters, identifying over- and under-utilized workloads with automated email notifications for owners.</li>
+                    <li>Analyzed metric cardinality in Mimir to achieve a 10% reduction in cluster workload, and built a Grafana dashboard for ongoing high-cardinality monitoring.</li>
+                    <li>Streamlined Cilium maintenance on ArgoCD and authored technical documentation and best practices.</li>
+                    <li>Used Prometheus, Grafana, OpenTelemetry, and Tempo to collect, visualize, and analyze metrics and traces for faster incident resolution.</li>
+                </ul>
+            </article>
+
+            <article class="card">
+                <header class="card-head">
+                    <div>
+                        <h3>Research Assistant</h3>
+                        <p class="meta">Illinois Institute of Technology · Chicago, IL</p>
+                    </div>
+                    <p class="when">May 2023 — May 2025</p>
+                </header>
+                <ul>
+                    <li>Conducted in-depth research and built comprehensive test plans for evaluating the performance and accuracy of a BPF compiler.</li>
+                    <li>Designed packet-processing applications hitting 10 Gbps in-kernel and 100 Gbps on DPDK using Receive Side Scaling and parallel processing.</li>
+                    <li>Built automation scripts to ensure replicability of test results across runs.</li>
+                    <li>Collaborated with Fermi Lab on a joint project that leveraged DPDK to generate measurement output.</li>
+                    <li>Documented findings, methodologies, and procedures in technical reports and presentations.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="publications" class="section wrap">
+            <h2>Publications</h2>
+
+            <article class="card pub">
+                <header class="card-head">
+                    <div>
+                        <h3>Patchwork: A Traffic Capture and Analysis Platform for Network Experiments on a Federated Testbed</h3>
+                        <p class="authors">
+                            Nishanth Shyamkumar, <strong>Hyunsuk Bang</strong>, Bjoern Sagstad,
+                            Prajwal Somendyapanahalli Venkateshmurthy, Sean Cummings, Nik Sultana
+                        </p>
+                        <p class="meta">
+                            <em>ACM Internet Measurement Conference (IMC '25)</em> · Madison, WI · October 2025
+                        </p>
+                    </div>
+                </header>
+                <p class="prose">
+                    Patchwork is an open-source, user-deployed traffic capture and analysis platform
+                    that runs as an experiment on the FABRIC federated testbed. It offloads packet
+                    processing to FPGA NICs and DPDK to scale to line rate, and has been running
+                    weekly for over a year to produce a testbed-wide profile of how researchers
+                    collectively use FABRIC's network.
+                </p>
+                <p class="links">
+                    <a href="https://doi.org/10.1145/3730567.3764462" target="_blank" rel="noopener">DOI</a>
+                    <span class="dot" aria-hidden="true">·</span>
+                    <a href="./3730567.3764462.pdf" target="_blank" rel="noopener">PDF</a>
+                </p>
+            </article>
+
+            <article class="card pub">
+                <header class="card-head">
+                    <div>
+                        <h3>A Survey on Packet Filtering</h3>
+                        <p class="authors">
+                            Nik Sultana, <strong>Hyunsuk Bang</strong>, Elena Yulaeva,
+                            Ricky K. P. Mok, kc claffy, Richard Mortier
+                        </p>
+                        <p class="meta">
+                            <em>ACM SIGCOMM Computer Communication Review</em> · Vol. 54, Issue 3 · July 2024
+                        </p>
+                    </div>
+                </header>
+                <p class="prose">
+                    A community survey (91 participants) of how packet filtering tools and techniques
+                    are used across the networking research and practitioner communities. The paper
+                    surfaces prevalent tools, pain points, unmet needs, and proposes future research
+                    directions in packet filtering.
+                </p>
+                <p class="links">
+                    <a href="https://doi.org/10.1145/3711992.3711994" target="_blank" rel="noopener">DOI</a>
+                    <span class="dot" aria-hidden="true">·</span>
+                    <a href="./3711992.3711994.pdf" target="_blank" rel="noopener">PDF</a>
+                </p>
+            </article>
+        </section>
+
+        <section id="projects" class="section wrap">
+            <h2>Projects</h2>
+
+            <article class="card">
+                <header class="card-head">
+                    <div>
+                        <h3>pcap → BPF Compiler &amp; Simulator</h3>
+                        <p class="meta">C, Go · <a href="https://bpfsimulator.com" target="_blank" rel="noopener">bpfsimulator.com</a></p>
+                    </div>
+                    <p class="badge">CRA Honorable Mention</p>
+                </header>
+                <ul>
+                    <li>Built a compiler that translates pcap expressions into Berkeley Packet Filters for more efficient and accurate packet filtering.</li>
+                    <li>Designed and implemented control-flow-graph optimization passes to improve BPF execution speed.</li>
+                    <li>Extended tcpdump's transport-layer capture to work over IPv6.</li>
+                    <li>Contributed back to the open-source community — enhanced the "Caper expansion" section on tcpdump.org.</li>
+                    <li>Wrote a Go web server that visualizes step-by-step packet processing for user-uploaded pcap files (~2.1K requests/month).</li>
+                    <li>Received <strong>Honorable Mention</strong> from the Computing Research Association (CRA) for Outstanding Undergraduate Research.</li>
+                </ul>
+                <p class="links">
+                    <a href="https://gitlab.com/niksu/caper" target="_blank" rel="noopener">GitLab — caper</a>
+                    <span class="dot" aria-hidden="true">·</span>
+                    <a href="https://bpfsimulator.com" target="_blank" rel="noopener">bpfsimulator.com</a>
+                    <span class="dot" aria-hidden="true">·</span>
+                    <a href="https://www.tcpdump.org/bpfexam/?ver=1.10.4&dlt=EN10MB&snaplen=65535&filter=tcp+or+udp+&cbpf=none" target="_blank" rel="noopener">Live on tcpdump.org</a>
+                </p>
+            </article>
+
+            <article class="card">
+                <header class="card-head">
+                    <div>
+                        <h3>Raft Consensus Algorithm</h3>
+                        <p class="meta">Go · Distributed Systems</p>
+                    </div>
+                </header>
+                <ul>
+                    <li>Implemented the Raft consensus algorithm in Go using Test-Driven Development for robust leader election and log replication.</li>
+                    <li>Wrote automated tests that simulate network partitions and recoveries to verify fault tolerance across cluster nodes.</li>
+                    <li>Applied machine-learning techniques to tune election timeouts and heartbeat intervals, reducing leader re-election times.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="skills" class="section wrap">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-group">
+                    <h4>Platform &amp; Orchestration</h4>
+                    <ul class="tags">
+                        <li>Kubernetes</li>
+                        <li>Helm</li>
+                        <li>ArgoCD</li>
+                        <li>Kubernetes Operator</li>
+                        <li>Docker</li>
+                        <li>Ansible</li>
+                        <li>Jenkins</li>
+                    </ul>
+                </div>
+                <div class="skill-group">
+                    <h4>Networking</h4>
+                    <ul class="tags">
+                        <li>Cilium</li>
+                        <li>BPF / eBPF</li>
+                        <li>DPDK</li>
+                        <li>TCP/IP</li>
+                        <li>gRPC</li>
+                    </ul>
+                </div>
+                <div class="skill-group">
+                    <h4>Observability</h4>
+                    <ul class="tags">
+                        <li>Prometheus</li>
+                        <li>Grafana</li>
+                        <li>OpenTelemetry</li>
+                        <li>Splunk</li>
+                    </ul>
+                </div>
+                <div class="skill-group">
+                    <h4>Cloud &amp; Systems</h4>
+                    <ul class="tags">
+                        <li>AWS</li>
+                        <li>Linux</li>
+                        <li>Bash</li>
+                        <li>PostgreSQL</li>
+                        <li>Redis</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section wrap">
+            <h2>Education</h2>
+            <article class="card">
+                <header class="card-head">
+                    <div>
+                        <h3>Illinois Institute of Technology</h3>
+                        <p class="meta">M.S. &amp; B.S. in Computer Science · GPA 3.91</p>
+                    </div>
+                    <p class="when">Sep 2021 — May 2025</p>
+                </header>
+                <p class="prose">
+                    Coursework spanning Data Structures, Algorithms, Systems Programming, Databases,
+                    Functional Programming, Computer Networking, Software Defined Networking, and Operating Systems.
+                </p>
+            </article>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrap">
+            <p>© <span id="year"></span> Hyunsuk Bang</p>
+            <p class="muted">Built by hand. No frameworks.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        const links = document.querySelectorAll('.nav a');
+        const sections = [...links].map(a => document.querySelector(a.getAttribute('href'))).filter(Boolean);
+        const onScroll = () => {
+            const y = window.scrollY + 120;
+            let current = sections[0];
+            for (const s of sections) {
+                if (s.offsetTop <= y) current = s;
+            }
+            links.forEach(l => l.classList.toggle('active', l.getAttribute('href') === '#' + current.id));
+        };
+        window.addEventListener('scroll', onScroll, { passive: true });
+        onScroll();
+
+        const toggle = document.querySelector('.nav-toggle');
+        const nav = document.getElementById('primary-nav');
+        toggle.addEventListener('click', () => {
+            const open = nav.classList.toggle('open');
+            toggle.setAttribute('aria-expanded', open);
+            toggle.classList.toggle('open', open);
+        });
+        nav.addEventListener('click', e => {
+            if (e.target.tagName === 'A') {
+                nav.classList.remove('open');
+                toggle.classList.remove('open');
+                toggle.setAttribute('aria-expanded', 'false');
+            }
+        });
+    </script>
 </body>
 </html>
